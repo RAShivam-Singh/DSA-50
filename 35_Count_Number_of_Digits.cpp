@@ -1,7 +1,8 @@
-#include<iostream>
+#include <iostream>
 using namespace std;
 
-int main(){
+int main()
+{
 
   int n;
   cout << "Enter number = ";
@@ -11,11 +12,9 @@ int main(){
 
   while (n != 0)
   {
-    n = n/10;
+    n = n / 10;
     count++;
   }
 
-  cout<< " number of  digit is = "<< count;
-  
-  
+  cout << " number of  digit is = " << count;
 }
